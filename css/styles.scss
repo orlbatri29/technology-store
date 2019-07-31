@@ -1,4 +1,6 @@
 // IMPORTAR LOS PARCIALES UNICAMENTE
-body{
-    background-color: #e0e0e0;
+@import 'variables';
+@import 'detail-product';
+body {
+    background-color: $body-background-color;
 }
