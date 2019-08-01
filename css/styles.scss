@@ -1,6 +1,17 @@
 // IMPORTAR LOS PARCIALES UNICAMENTE
 @import 'variables';
 @import 'detail-product';
+@import 'shopping-cart';
 body {
+    margin: 0;
     background-color: $body-background-color;
 }
+
+.footer-class{
+    position: relative;
+    bottom: 0; 
+    width: 100%;
+    height: $footer-heigth;
+}
+
+
