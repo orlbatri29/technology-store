@@ -1,6 +1,18 @@
-body {
-    background-color: #e0e0e0;
+.bg-span-carousel {
+  background-color: lightslategray !important;
 }
 
+.footer-images-carousel {
+  width: 20%;
+  height: auto;
+}
+
+.img-carousel {
+  width: 100%;
+}
+
+body {
+  background-color: #e0e0e0;
+}
 
 /*# sourceMappingURL=style.css.map */
