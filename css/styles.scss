@@ -17,19 +17,23 @@ body {
     background-color: $footer-bg;
 
     a{
-        color: black !important;
+        color: white !important;
     }
 }
 
-header{
+/*header{
     nav{
         background-color: $header-bg;
     }
 
-}
+}*/
 
 .shopping-cart{
     background-color: $shopping-cart-table-bg;
+}
+
+.nav-bg{
+    background-color: $header-bg;
 }
 
 
