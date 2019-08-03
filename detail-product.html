@@ -15,14 +15,23 @@
 </head>
 
 <body>
+
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light border-bottom border-light" style="background-color: #e0e0e0;">
-            <a class="navbar-brand mb-0 h1" href="#"><img src="https://image.flaticon.com/icons/png/512/22/22819.png" width="30" height="30" alt="">Tech-Store</a>
+        <nav class="navbar navbar-expand-lg navbar-light nav-bg">
+            <a class="navbar-brand mb-0 h1" href="#"><img src="https://image.flaticon.com/icons/png/512/22/22819.png" width="30" height="30" alt=""> Tech-Store</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
-            <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <div class="input-group my-0 mx-0 my-md-0 mx-md-0 my-md-3 mx-md-5 my-lg-3 mx-lg-5">
+                    <input type="text" class="form-control " placeholder="Búsqueda" aria-label="Search" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary " type="submit" id="button-addon2">Buscar</button>
+                    </div>
+                </div>
+
                 <ul class="navbar-nav">
 
                     <li class="nav-item active">
@@ -46,10 +55,7 @@
                             <i class="material-icons mr-2">shopping_basket</i> Carrito <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Búsqueda" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
+
             </div>
         </nav>
     </header>
@@ -260,24 +266,25 @@
             </div>
         </section>
     </div>
-    <footer id="footer " class="shopping-cart-table-bg footer-class mt-4 ">
-        <div class="container shopping-cart-table-bg ">
-            <div class="row ">
-                <div class="col-md-3 d-flex justify-content-center ">
-                    <a href="# ">Preguntas frecuentes</a>
-                </div>
-                <div class="col-md-3 d-flex justify-content-center ">
-                    <a href="# ">Contáctanos</a>
-                </div>
-                <div class="col-md-3 d-flex justify-content-center ">
-                    <a href="# ">Términos y condiciones</a>
-                </div>
-                <div class="col-md-3 d-flex justify-content-center ">
-                    <a href="# ">Privacidad</a>
+    <footer id="footer " class="footer-class mt-4 d-flex justify-content-center align-items-center ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-3 d-flex justify-content-center ">
+                        <a href="# " class="text-secondary ">Preguntas frecuentes</a>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center ">
+                        <a href="# " class="text-secondary ">Contáctanos</a>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center ">
+                        <a href="# " class="text-secondary ">Términos y condiciones</a>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center ">
+                        <a href="# " class="text-secondary ">Privacidad</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    
 </body>
 
 <!-- Optional JavaScript -->
