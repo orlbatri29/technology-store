@@ -12,7 +12,7 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light border-bottom border-light" style="background-color: #e0e0e0;">
+        <nav class="navbar navbar-expand-lg navbar-light border-bottom border-light">
                 <a class="navbar-brand mb-0 h1" href="#"><img src="https://image.flaticon.com/icons/png/512/22/22819.png" width="30" height="30" alt="">Tech-Store</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -35,14 +35,14 @@
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        <button class="btn btn-light my-2 my-sm-0" type="submit">Buscar</button>
                     </form>
                 </div>
         </nav>
     </header>
     <div class="container">
-        <div class=" row mt-1">
-            <div class="col-sm-12 col-md-8 row">
+        <div class=" row mt-3 d-flex justify-content-center">
+            <div class="col-sm-12 col-md-8 row shopping-cart rounded-lg">
                 <div class="col-12 d-flex justify-content-start align-items-center mb-2">
                     <h1>Tu Carrito</h1>
                 </div>
@@ -71,7 +71,7 @@
                 <div class="col-2 p-2 d-flex justify-content-center align-items-center">1</div>
                 <div class="col-3 p-2 d-flex justify-content-center align-items-center">$350.00</div>
             </div>
-            <div class="col-sm-12 col-md-4 row border mx-auto ml-sm-0 ml-md-4 ml-lg-4 mt-2 mt-sm-3 mt-md-5 mt-lg-5 rounded-lg">
+            <div class="col-sm-12 col-md-4 row border ml-sm-0 ml-md-4 ml-lg-4 mt-2 mt-sm-2 rounded-lg shopping-cart">
                     <div class="col-md-12 col-sm-12 col-lg-12 d-flex justify-content-center align-items-center border-bottom">
                         <h3>Resumen</h3>
                     </div>
@@ -90,9 +90,29 @@
             
         </div>
     </div>
+    
+    <footer id="footer " class="footer-class mt-4 d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-3 d-flex justify-content-center ">
+                    <a href="# " class="text-secondary">Preguntas frecuentes</a>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center ">
+                    <a href="# " class="text-secondary">Contáctanos</a>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center ">
+                    <a href="# " class="text-secondary">Términos y condiciones</a>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center ">
+                    <a href="#" class="text-secondary">Privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    <footer id="footer" class="shopping-cart-table-bg footer-class mt-4">
-        <div class="container shopping-cart-table-bg ">
+
+    <!-- <footer id="footer" class="footer-class mt-4 d-flex justify-content-center align-items-center">
+        <div class="container footer-class ">
             <div class="row">
                 <div class="col-md-3 d-flex justify-content-center">
                     <a href="#">Preguntas frecuentes</a>
@@ -108,7 +128,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
