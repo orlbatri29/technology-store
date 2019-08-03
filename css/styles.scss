@@ -14,6 +14,23 @@ body {
     bottom: 0; 
     width: 100%;
     height: $footer-heigth;
+    background-color: $footer-bg;
+
+    a{
+        color: black !important;
+    }
 }
+
+header{
+    nav{
+        background-color: $header-bg;
+    }
+
+}
+
+.shopping-cart{
+    background-color: $shopping-cart-table-bg;
+}
+
 
 
