@@ -11,42 +11,35 @@
     <title>Carrito</title>
   </head>
   <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light border-bottom border-light">
+                <a class="navbar-brand mb-0 h1" href="#"><img src="https://image.flaticon.com/icons/png/512/22/22819.png" width="30" height="30" alt="">Tech-Store</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+                    <ul class="navbar-nav">
 
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light nav-bg" >
-                    <a class="navbar-brand mb-0 h1" href="#"><img src="https://image.flaticon.com/icons/png/512/22/22819.png" width="30" height="30" alt="">  Tech-Store</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    
-                        <div class="input-group my-3 mx-5 align-items-bottom">
-                                <input type="text" class="form-control " placeholder="Búsqueda" aria-label="Search" aria-describedby="button-addon2">
-                                <div class="input-group-append">
-                                    <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit" id="button-addon2">Buscar</button>
-                                </div>
-                        </div>
-    
-                        <ul class="navbar-nav justify-content-end">
-    
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#"> <img src="https://image.flaticon.com/icons/png/512/55/55089.png" width="30" height="30" alt=""> Usuario <span class="sr-only">(current)</span></a>
-                        </li>
-    
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#"> <img src="https://image.flaticon.com/icons/png/512/57/57602.png" width="30" height="30" alt=""> Favoritos <span class="sr-only">(current)</span></a>
-                        </li>
-    
-                        <li class="nav-item active mr-2">
-                            <a class="nav-link" href="shopping-cart.html"><img src="https://image.flaticon.com/icons/png/512/70/70369.png" width="30" height="30" alt=""> Carrito <span class="sr-only">(current)</span></a>
-                        </li>
-                        </ul>
-    
-                    </div>
-            </nav>
-        </header>
-   
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <img src="https://image.flaticon.com/icons/png/512/55/55089.png" width="30" height="30" alt=""> Usuario <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <img src="https://image.flaticon.com/icons/png/512/57/57602.png" width="30" height="30" alt=""> Favoritos <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item active mr-2">
+                        <a class="nav-link" href="#"><img src="https://image.flaticon.com/icons/png/512/70/70369.png" width="30" height="30" alt=""> Carrito <span class="sr-only">(current)</span></a>
+                    </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-light my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                </div>
+        </nav>
+    </header>
     <div class="container">
         <div class=" row mt-3 d-flex justify-content-center">
             <div class="col-sm-12 col-md-8 row shopping-cart rounded-lg">
@@ -78,7 +71,7 @@
                 <div class="col-2 p-2 d-flex justify-content-center align-items-center">1</div>
                 <div class="col-3 p-2 d-flex justify-content-center align-items-center">$350.00</div>
             </div>
-            <div class="col-sm-12 col-md-4 row border ml-sm-0 ml-md-4 ml-lg-4 mt-3 mt-sm-3 mt-md-0 rounded-lg shopping-cart">
+            <div class="col-sm-12 col-md-4 row border ml-sm-0 ml-md-4 ml-lg-4 mt-2 mt-sm-2 rounded-lg shopping-cart">
                     <div class="col-md-12 col-sm-12 col-lg-12 d-flex justify-content-center align-items-center border-bottom">
                         <h3>Resumen</h3>
                     </div>
@@ -89,7 +82,7 @@
                     <div class="col-6 col-sm-6 col-md-3 col-lg-3 d-flex justify-content-center py-1 align-items-center border-bottom ">Total</div>
                     <div class="col-6 col-sm-6 col-md-9 col-lg-9 d-flex justify-content-center py-1 align-items-center border-bottom ">$1222.88</div>
                     <div class="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center pt-3 pb-3">
-                        <button type="button" class="btn btn-success btn-block">Continuar compra</button>
+                        <button type="button" class="btn btn-outline-success btn-block">Continuar compra</button>
                     </div>
                     
 

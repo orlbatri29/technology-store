@@ -59,24 +59,18 @@ body {
   bottom: 0;
   width: 100%;
   height: 100px;
-  background-color: #525252;
+  background-color: #28c3d4;
 }
 .footer-class a {
-  color: white !important;
+  color: black !important;
 }
 
-/*header{
-    nav{
-        background-color: $header-bg;
-    }
+header nav {
+  background-color: #248ea9;
+}
 
-}*/
 .shopping-cart {
   background-color: white;
-}
-
-.nav-bg {
-  background-color: #fff159;
 }
 
 /*# sourceMappingURL=style.css.map */
